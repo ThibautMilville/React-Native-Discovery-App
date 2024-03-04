@@ -1,6 +1,6 @@
 import { SafeAreaView, View } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
-import { FlexDemo } from './components/FlexDemo/FlexDemo';
+import { AgeCounter } from './components/AgeCounter/AgeCounter';
 
 export default function App() {
 	return (
@@ -11,7 +11,7 @@ export default function App() {
         <View style={{ backgroundColor: 'white', flex: 1 }}></View>
         <View style={{ backgroundColor: 'red', flex: 1 }}></View>
         */}
-				<FlexDemo />
+				<AgeCounter />
 			</SafeAreaView>
 		</SafeAreaProvider>
 	);
